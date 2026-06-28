@@ -2,7 +2,7 @@
 
 **Authority:** Operator (Sean Malm)  
 **Status:** Active  
-**Last Updated:** 2026-06-23  
+**Last Updated:** 2026-06-27  
 **Canonical Source:** [MIRRORNODE-CORE-HUB](https://github.com/mirrornode/MIRRORNODE-CORE-HUB)
 
 ---
@@ -12,6 +12,7 @@
 `mirrornode-docs` is the **external documentation surface and migration staging ground** for the MIRRORNODE ecosystem — the home for:
 
 - Operational protocols and agent briefings
+- Node Charges, runtime contracts, and handoff templates
 - Notion exports (Markdown-converted, datestamped)
 - Phone/voice memo transcriptions migrated to version control
 - Local machine drafts awaiting canon integration
@@ -25,6 +26,12 @@ This repo **extends** — it does not replace — that canon.
 
 ---
 
+## Current Active Protocol
+
+- [`protocols/2026-06-27_agent-charge-and-runtime-contracts.md`](protocols/2026-06-27_agent-charge-and-runtime-contracts.md) — Defines Charge-based node instantiation, bounded state awareness, runtime UI hook contracts, and current drift-detector launch guidance.
+
+---
+
 ## Directory Structure
 
 ```
@@ -35,7 +42,8 @@ mirrornode-docs/
 ├── protocols/                   # Operational protocols (active)
 │   ├── agent-briefings/
 │   ├── async-tethering-lock-in.md
-│   └── v0.3-audit-checklist.md
+│   ├── v0.3-audit-checklist.md
+│   └── 2026-06-27_agent-charge-and-runtime-contracts.md
 │
 ├── notion-exports/              # Notion → Markdown exports (raw, datestamped)
 │   └── YYYY-MM-DD_<page-title>.md
@@ -84,6 +92,7 @@ Status: [Draft / Archived / Pending-Integration]
 | Repo org map | `CORE-HUB/REPO_MAP.md` |
 | System contract | `CORE-HUB/SYSTEM_CONTRACT.md` |
 | Operational protocols | **This repo** — `protocols/` |
+| Node Charges and runtime contracts | **This repo first**, then promote to CORE-HUB if ratified |
 | Notion exports | **This repo** — `notion-exports/` |
 | Phone/session notes | **This repo** — `session-notes/` |
 | Local machine drafts | **This repo** — `local-drafts/` |
@@ -101,6 +110,7 @@ Status: [Draft / Archived / Pending-Integration]
 | Phone / Voice memos | ⬜ Never | Transcription pending |
 | Computer #1 | ⬜ Unknown | Verify git status |
 | Computer #2 | ⬜ Unknown | Verify git status |
+| Operator session | 2026-06-27 | Agent Charge and runtime contract protocol added |
 
 *Update this table after each sync run. See `DOC_SYNC_CHECKLIST.md`.*
 
